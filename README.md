@@ -22,10 +22,3 @@ Inventory management CRUD built on Laravel with products tracked by SKU, name, s
 Resource routes via `Route::resource('products', ProductController::class)`:
 - index, create, store, edit, update, destroy.
 
-## Tests
-Run the suite: `php artisan test`.
-
-## Deliverables Checklist
-- Push this repo to GitHub.
-- Demo video (≤2 min): show DB state, add product, edit stock, delete product.
-- Code snippet: include a screenshot of `app/Http/Controllers/ProductController.php` showing the `store` and `update` methods. Save the screenshot when you record the demo.
